@@ -1,4 +1,41 @@
 body{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* background-image: url(https://1094415449.rsc.cdn77.org/wp-content/uploads/2020/07/water-texture-sun-in-water.jpg); */
 }
+
+
+.title{
+    
+
+}
+
+.description{
+    
+
+}
+
+.form-container{
+    background-color: rgba(194, 194, 191, .5);
+
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+#recommend-options{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+
+

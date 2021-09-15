@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1 class="title"></h1>
+    <h1 class="title">freeCodeCamp Responsive Web Design Certification Survey</h1>
     <p id="description" class="description">Thank you for taking the time to help us improve the platform</p>
     <div class="form-container">
         <form id="survey-form" action="" method="post">
@@ -41,16 +41,16 @@
                 </select>
             </div>
             <div class="form-group">
-                <fieldset>
+                <fieldset id="recommend-options">
                     <legend>Would you recommend freeCodeCamp to a friend?</legend>
                     <input name="user-recommend" value="definitely" type="radio" class="input-radio" id="definitely">
-                    <label for="definitely">Definitely</label>
+                    <label id="recommend-label" for="definitely">Definitely</label>
 
                     <input name="user-recommend" value="maybe" type="radio" class="input-radio" id="maybe">
-                    <label for="maybe">Maybe</label>
+                    <label id="recommend-label" for="maybe">Maybe</label>
 
                     <input name="user-recommend" value="notSure" type="radio" class="input-radio" id="notSure">
-                    <label for="notSure">Not sure</label>
+                    <label  id="recommend-label" for="notSure">Not sure</label>
                 </fieldset>
             </div>
             <div class="form-group">
@@ -79,7 +79,7 @@
                     <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges
                 </label>
                 <label>
-                    <input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">
+                    <input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community
                 </label>
                 <label>
                     <input name="prefer" value="gitter-help-rooms" type="checkbox">Gitter help rooms
