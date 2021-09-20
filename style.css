@@ -2,22 +2,37 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-image: url(https://1094415449.rsc.cdn77.org/wp-content/uploads/2020/07/water-texture-sun-in-water.jpg); */
+
+    background-image: url(https://1094415449.rsc.cdn77.org/wp-content/uploads/2020/07/water-texture-sun-in-water.jpg);
 }
 
 
 .title{
+    background-color: rgba(255, 99, 71, .9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 5%;
+    
     
 
 }
 
 .description{
+    background-color: rgba(197, 191, 191, 0.9);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1.2em;
+    font-weight:800;
+    border-radius: 5%;
+    padding: 5px;
     
 
 }
 
 .form-container{
-    background-color: rgba(194, 194, 191, .5);
+    width: 70vw;
+    padding: 20px 20px;
+    background-color: rgba(194, 194, 191, 1);
+    border-radius: 5%;
 
 }
 
@@ -25,6 +40,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px solid red;
+    padding: 10px 10px;
+    border-radius: 5%;
 }
 
 .form-group{
@@ -37,5 +55,41 @@ body{
     /* flex-direction: column; */
 }
 
+#name-label{
 
+}
+#survey-form .name-class,.email-class,.age-class {
+    width: 80%;
+}
 
+.role-class{
+    margin-bottom: 25px;
+}
+
+.role-class p {
+    
+    margin-bottom: 5px;
+
+}
+
+.whatFave-class{
+    margin: 15px 15px;
+}
+
+.whatFave-class p{
+    margin-bottom: 6px;
+}
+
+.submit-button{
+    margin: 10px auto 5px auto;
+}
+
+.submit-button:hover{
+    background-color: seagreen;
+
+}
+
+.textareaP{
+    align-items: center;
+
+}
